@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h2 {
+  position: relative;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: -20px;
+  width: 5px;
+  background-color: #435757;
+}
+
+h2::after {
+  display: block;
+  float: right;
+  font-weight: normal;
+}
+
+
+.undone1 {
+  background: rgb(133, 220, 255);
+}
+
+
+.ccl {
+  display: block;
+  padding: 15px 0 15px 15px;
+  border-top: 1px dashed rgb(0, 0, 0);
+  cursor: pointer;
+}
+
